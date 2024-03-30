@@ -1,0 +1,63 @@
+.footer-container {
+    height: 17.8%;
+    width: 100%;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+}
+.footer-parent {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+}
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* Set height of the parent element to full viewport height */
+}
+
+.footer-title {
+    color: blue;
+    align-self: center; /* Align footer-title to the bottom */
+    font-size: 14px;
+    text-align: justify;
+}
+.footer-para {
+    display: flex;
+    color: red;
+    align-self: center; /* Align footer-title to the bottom */
+    font-size: 14px;
+    text-align: justify;
+}
+.footer-parent img {
+    max-width: 100%;
+    height: 130px;
+    background-image: url('../../../assets/Home/footer.png');
+}
+@media only screen and (max-width: 1110px) {
+    .footer-parent {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+.about-container {
+    max-width: 100%; /* Set maximum width */
+    max-height: 100%; /* Set maximum height */
+    width: 100%; /* Ensure responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border: 10px solid #000; /* Add border with thickness and color */
+    box-sizing: border-box; /* Include border in the element's dimensions */
+    padding: 10px; /* Add padding inside the border */
+}
+.about-background {
+    display:flex;
+    height: 92%;
+    width: 92%;
+    border-radius: 100%;
+    border: 10px solid skyblue;
+    background-image: url("C:\Users\KMORAL\Desktop\Portfoliopro\client\src\assets\Home\Dmoral.jpeg");
+    background-size: relative;
+    background-position: right;
+}
